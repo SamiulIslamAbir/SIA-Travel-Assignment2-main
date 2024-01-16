@@ -1,0 +1,171 @@
+@media screen and (max-width: 600px) {
+
+    .three-dot {
+        display: block; /* Show on mobile */
+        font-size: 1.5rem;
+        color: #FF5400;
+        cursor: pointer;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .site-logo-name h2{
+        font-size: 2rem;
+    }
+
+   /* banner start */
+
+
+    .input-travel-info{
+        flex-direction: column;
+    }
+    .banner-section{
+        width: 90%;
+        height: 520px;
+    }
+    .banner-sec-div h1{
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .banner-sec-div p{
+        margin-top: 10px;
+    margin-bottom: 24px;
+    }
+
+    /* banner end */
+
+
+
+    /* populer start */
+
+    .popular-tour-div {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .popular-tour-text {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .popular-tour-img {
+        width: 100%;
+
+    }
+
+    .pupular-tour-section {
+        width: 85% auto;
+    }
+
+    .popular-tour-text h2{
+        font-size: 1.5rem
+    }
+    .popular-tour-text p{
+        font-size: .9rem
+    }
+
+    /* populer end */
+
+    
+    /* Destination start */
+
+    .destination-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .img-container {
+        display: block;
+
+    }
+
+    .img-container img {
+        height: 11rem;
+        margin-bottom: 8px;
+    }
+
+    /* Destination end */
+
+
+
+
+    /* why choose us start */
+
+    .choose-service {
+        flex-direction: column;
+    }
+
+    .service-1,
+    .service-2,
+    .service-3 {
+        width: 85%;
+    }
+
+    .choose-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .choose-text p {
+        font-size: .8rem;
+
+    }
+
+    /* why choose us end */
+
+
+    /* newsletter start */
+
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter-text {
+        width: 85%;
+    }
+
+    .newsletter-img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .newsletter-text p{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .newsletter-text input{
+        margin-top: 16px;
+    }
+
+    .newsletter-text button{
+        margin-top: 16px;
+    }
+
+    /* newsletter end */
+
+    /* footer start */
+
+    footer {
+        height: 309px;
+    }
+
+    .footer-logo h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-logo p {
+        font-size: .8rem;
+    }
+
+    .footer-hr {
+
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    /* footer end */
+
+}
